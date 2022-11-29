@@ -2,12 +2,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
-  color: deeppink;
+  color: #2b2b2b;
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
 }
 
-div.copyright {
-  background-color: brown;
+header {
+  background-color: #333333;
+  text-align: center;
+}
+
+header h1 {
+  color: #d1d1d1;
+  font-size: 2.5rem;
+}
+
+header h1 span {
+}
+
+.social-media-icon {
+  width: 1.3rem;
 }
