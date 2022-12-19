@@ -49,3 +49,15 @@ header h1 span {
   flex-direction: column;
   gap: 5px;
 }
+
+.main-container .author .time-socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container .author ul {
+  background-color: red;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
