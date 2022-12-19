@@ -14,6 +14,10 @@ p {
 header {
   background-color: #333333;
   text-align: center;
+  padding: 10x;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 header h1 {
@@ -22,8 +26,30 @@ header h1 {
 }
 
 header h1 span {
+  color: #fd8a24;
 }
 
 .social-media-icon {
   width: 1.3rem;
+}
+
+.main-container {
+  max-width: 885px;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.main-container h2 {
+  font-size: 3.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.main-container .author {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main-container .author .time-socialmedia {
+  display: flex;
 }
