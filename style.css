@@ -48,6 +48,12 @@ header h1 span {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin-bottom: 2rem;
+}
+
+.main-container .author .span-author {
+  color: #555555;
+  font-weight: 700;
 }
 
 .main-container .author .time-socialmedia {
@@ -55,9 +61,18 @@ header h1 span {
   justify-content: space-between;
 }
 
+.main-container .author .time-socialmedia .news-time {
+  color: #686868;
+  font-size: 0.8rem;
+}
+
 .main-container .author ul {
-  background-color: red;
   list-style: none;
   display: flex;
   gap: 30px;
+  margin-bottom: 2.5rem;
+}
+
+.main-container .img01 {
+  width: 100%;
 }
