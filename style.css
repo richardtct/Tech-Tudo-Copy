@@ -33,6 +33,13 @@ header h1 span {
   width: 1.3rem;
 }
 
+span.img-bottom-content {
+  color: #686868;
+  font-size: 0.8rem;
+  margin: 0 0 2.5rem 0;
+  background-color: red;
+}
+
 .main-container {
   max-width: 885px;
   margin: auto;
@@ -74,5 +81,17 @@ header h1 span {
 }
 
 .main-container .img01 {
+  width: 100%;
+}
+
+.content-container {
+  max-width: 73%;
+  margin: auto;
+}
+
+.content-container h3 {
+  font-size: 2rem;
+}
+.content-container img {
   width: 100%;
 }
