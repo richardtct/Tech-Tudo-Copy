@@ -36,8 +36,8 @@ header h1 span {
 span.img-bottom-content {
   color: #686868;
   font-size: 0.8rem;
-  margin: 0 0 2.5rem 0;
-  background-color: red;
+  display: block;
+  margin-bottom: 2.5rem;
 }
 
 .main-container {
@@ -92,6 +92,11 @@ span.img-bottom-content {
 .content-container h3 {
   font-size: 2rem;
 }
+
+.content-container p {
+  line-height: 2rem;
+}
+
 .content-container img {
   width: 100%;
 }
