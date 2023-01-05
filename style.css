@@ -100,3 +100,34 @@ span.img-bottom-content {
 .content-container img {
   width: 100%;
 }
+
+footer {
+  background-color: #333;
+}
+
+footer .footer-container {
+  background-color: red;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h4 {
+  font-size: 2.1rem;
+  color: #fd8a24;
+}
+
+footer span {
+  color: #d1d1d1;
+}
+
+footer p {
+  font-size: 0.65rem;
+  color: #f2f2f2;
+  line-height: 0.77rem;
+}
+
+footer .copyright {
+  max-width: 620px;
+}
