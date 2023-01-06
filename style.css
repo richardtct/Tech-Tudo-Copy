@@ -106,16 +106,18 @@ footer {
 }
 
 footer .footer-container {
-  background-color: red;
+  padding: 0.7rem 0 1rem 0;
   max-width: 1170px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer h4 {
   font-size: 2.1rem;
   color: #fd8a24;
+  margin-bottom: 0.75rem;
 }
 
 footer span {
@@ -123,6 +125,7 @@ footer span {
 }
 
 footer p {
+  margin: 0;
   font-size: 0.65rem;
   color: #f2f2f2;
   line-height: 0.77rem;
@@ -130,4 +133,22 @@ footer p {
 
 footer .copyright {
   max-width: 620px;
+}
+
+footer .terms-n-privacy {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 1.3rem;
+}
+
+footer .terms-n-privacy span {
+  color: #f2f2f2;
+  font-size: 0.8rem;
+}
+
+footer .terms-n-privacy span a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 0.7rem;
 }
